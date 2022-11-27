@@ -1,0 +1,79 @@
+*{
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: tan;
+    width: 100vw;
+    height: 8vh;
+}
+
+.header_left_part{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brand_title{
+    height: 50%;
+    width: 65%;
+}
+
+.header_left_part h1{
+    font-size: 30px;
+}
+
+.main_container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 92vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_container input {
+    height: 10%;
+    width: 20%;
+    border: 1px solid;
+    border-color: grey;
+    cursor: text;
+}
+
+.file_display{
+    height: 35%;
+    width: 40%;
+    border: 2px dashed #555;
+    color: #444;
+    padding: 8px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.file_display:hover {
+    background: #eee;
+    border-color: #111;
+  }
+
+.upload_text h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.upload_text{
+    height: 6vh;
+    width: 40vw;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}

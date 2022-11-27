@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignalEthique</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="next_style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_left_part">
+            <div class="brand_title">
+                <h1>SignalEthique</h1>
+            </div>
+        </div>
+    </div>
+    <div class="main_container">
+        <div class = parametrage>
+            <div class="upload_text">
+                <h1>Paramétrez votre production 3D</h1>
+            </div>
+            <div class = formulaire>
+                <form>
+                    <div class="h2_text">
+                        <h2>Luminosité :</h2>
+                    </div>
+                    <select>
+                        <option value="0">Enseigne lumineuse</option>
+                        <option value="1">Enseigne non-lumineuse</option>
+                    </select>
+                    <div class="h2_text">
+                        <h2>Taille :</h2>
+                    </div>
+                    <input type="taille" name="field2" placeholder="Taille (en cm)"/>
+                    <div class="h2_text">
+                        <h2>Profondeur :</h2>
+                    </div>
+                    <input type="profondeur" name="field3" placeholder="Profondeur (en cm)"/>
+                    <div class="h2_text">
+                        <h2>Contrainte environnementale :</h2>
+                    </div>
+                    <select>
+                        <option value="0">Aucune</option>
+                        <option value="1">Façade humide</option>
+                        <option value="2">Façade exposée aux vents forts</option>
+                        <option value="3">Façade exposée aux fortes chaleurs</option>
+                    </select>
+                </form>
+                <input class="define" onClick="location.href='next_next.html'" type="submit" value="Send" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

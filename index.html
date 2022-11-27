@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignalEthique</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index_style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_left_part">
+            <div class="brand_title">
+                <h1>SignalEthique</h1>
+            </div>
+        </div>
+    </div>
+    <div class="main_container">
+        <div class="upload_text">
+            <h1>Renseignez votre shéma 2D</h1>
+        </div>
+        <div class="file_display">
+            <label class="label" for="upload"><span class="span" id="preview"></span></label>
+        </div>
+        <div class="upload">
+            <label for="images" class="drop-container">
+                <span class="drop-title">Drop files here</span>
+                or
+                <input type="file" id="input_file" onchange="handleFiles(files)" required>
+            </label>
+        </div>
+        <input style="height: 65px; width: 160px;" type="submit" onClick="location.href='next.html'" value="Next" />
+    </div>
+</body>
+
+</html>
